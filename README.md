@@ -30,22 +30,30 @@ The `src` folder contains all source code files.
 
 1. Clone the repository.
 
+```
 git clone [repo link]
 cd [repo name]
+```
 
 2. Create and activate virtual environment (optional but recommended).
 
+```
 python -m venv .venv
-source .venv/bin/activate   (for macOS/linux)
-.venv\Scripts\activate      (for Windows)
+source .venv/bin/activate   # (for macOS/linux)
+.venv\Scripts\activate      # (for Windows)
+```
 
 3. Install dependencies
 
+```
 pip install -r requirements.txt
+```
 
 4. Run the app
 
+```
 python gui.py
+```
 
 # Configuration
 
@@ -77,5 +85,6 @@ See `data/sales.csv` for a short example of the format your own CSV file should 
 This repository is part of my consulting and portfolio work. 
 The code is shared publicly for demonstration purposes only.
 Please do not reuse or distribute without permission.
+
 
 ## © 2025 Adam Lizerbram / AML Software Consulting. All rights reserved.
