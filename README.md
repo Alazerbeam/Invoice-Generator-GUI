@@ -16,14 +16,6 @@ Coming soon.
 
 # Project Structure
 
-Under the `data` folder, there are example csv files. `sales.csv` contains only a few entries (5 customers with up to 2 purchases each) for testing and simplicity. `sales2.csv` contains much more data (50 customers with up to 3 purchases each).
-
-Under the `images` folder, there is an example logo to put on the invoices.
-
-The `invoices` folder is the output folder from running the program. All generated invoices are placed in this folder.
-
-The `src` folder contains all source code files.
-
 | Folder / File | Description |
 |----------------|-------------|
 | `data/sales.csv` | Example CSV file which contains 5 customers each having up to 2 purchases. |
@@ -100,3 +92,4 @@ Please do not reuse or distribute without permission.
 
 
 ## © 2025 Adam Lizerbram / AML Software Consulting. All rights reserved.
+
