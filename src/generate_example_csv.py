@@ -72,5 +72,4 @@ for i in range(50):
 
 # Save to CSV
 df = pd.DataFrame(rows)
-df.to_csv("sales2.csv", index=False)
-print("Generated sales2.csv with 50 customers; fixed item prices.")
+df.to_csv("data/sales3.csv", index=False)

@@ -24,15 +24,27 @@ The `invoices` folder is the output folder from running the program. All generat
 
 The `src` folder contains all source code files.
 
-[insert table here explaining each script]
+| Folder / File | Description |
+|----------------|-------------|
+| `data/sales.csv` | Example CSV file which contains 5 customers each having up to 2 purchases. |
+| `data/sales2.csv` | Larger example CSV file containing 50 customers each having up to 3 purchases. |
+| `images/generic_logo.png` | A generic company logo to put on the invoice pdfs. |
+| `invoices/` | The output folder to contain all generated invoice pdfs. |
+| `src/config.py` | Contains configuration constants such as directory paths and file templates. |
+| `src/generate_example_csv.py` | Generates a new random CSV file with 50 customers, each having up to 3 purchases. |
+| `src/generate_invoice.py` | Core logic for reading client data, generating PDFs, and formatting invoices. |
+| `src/gui.py` | Entry point of the application. Launches the Tkinter GUI and handles user interactions. |
+| `LICENSE.txt` | Licensing terms and conditions for use of this project. |
+| `README.md` | Project overview, setup instructions, and usage guide. |
+| `requirements.txt` | Python library requirements to successfully run this project. |
 
 # Setup Instructions
 
 1. Clone the repository.
 
 ```
-git clone [repo link]
-cd [repo name]
+git clone https://github.com/Alazerbeam/Invoice-Generator-GUI.git
+cd Invoice-Generator-GUI
 ```
 
 2. Create and activate virtual environment (optional but recommended).
