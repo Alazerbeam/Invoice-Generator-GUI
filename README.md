@@ -91,5 +91,6 @@ The code is shared publicly for demonstration purposes only.
 Please do not reuse or distribute without permission.
 
 
-## © 2025 Adam Lizerbram / AML Software Consulting. All rights reserved.
+### © 2025 Adam Lizerbram / AML Software Consulting. All rights reserved.
+
 
